@@ -15,28 +15,32 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="start service" />
+            android:text="startService"
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/bnt_destroy"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="destroy service" />
+            android:text="stopService"
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/bnt_bond"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="bond service" />
+            android:text="bondService"
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/bnt_unbond"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="unbond service" />
+            android:text="unbindService"
+            android:textAllCaps="false" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
